@@ -1,4 +1,4 @@
-package com.xuming.pay;
+package com.xuming.pay.multithread;
 
 import java.util.Date;
 import java.util.concurrent.LinkedBlockingQueue;
