@@ -20,6 +20,10 @@
         </plugins>
     </build>
 
+    <properties>
+        <caffeine.version>2.7.0</caffeine.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -34,7 +38,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
+            <version>1.18.16</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -46,7 +50,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.9</version>
         </dependency>
-
+        <!-- caffeine -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>${caffeine.version}</version>
+        </dependency>
 
     </dependencies>
 
